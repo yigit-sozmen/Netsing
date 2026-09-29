@@ -225,7 +225,7 @@ class NetsingApp(App):
 
     def compose(self) -> ComposeResult:
         yield Header(show_clock=True)
-        yield Static("NETSING // TRAFFIC SONIFIER", id="title-box")
+        yield Static("NETSING / I WANT TO DIE", id="title-box")
         yield Static("", id="scope-box")
         yield Static(" [STATUS] LISTENING | PACKETS: 0 | QUEUE: 0", id="stats-box")
         yield DataTable(id="packet-table")
@@ -262,7 +262,7 @@ class NetsingApp(App):
         stats = self.query_one("#stats-box", Static)
 
         q_size = ui_queue.qsize()
-        stats.update(f" [STATUS] RECEIVING TELEMETRY | TOTAL PACKETS: {self.total_packets} | QUEUE BUFFER: {q_size}")
+        stats.update(f" [STATUS] RUNNING | TOTAL PACKETS: {self.total_packets} | QUEUE BUFFER: {q_size}")
 
 
         while not ui_queue.empty():
