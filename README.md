@@ -11,7 +11,7 @@ Firstly, Netsing captures your internet traffic with [Scapy](https://scapy.net/)
 ## Requirements 
 
 - **Gentoo**: `sudo emerge --ask media-libs/portaudio`
--  **Arch/EndeavourOS**: `sudo pacman -S portaudio`
+-  **Arch**: `sudo pacman -S portaudio`
 -  **Debian/Ubuntu**: `sudo apt install portaudio19-dev`
 
 ## Running Netsing
