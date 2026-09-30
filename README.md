@@ -22,7 +22,7 @@ To basically run Netsing use:
 
 ## AI Usage and License
 
-Netsing's user interface and sound generation coded using AI because i lack of skill of developing an interface.
+Netsing's user interface and sound generation coded using AI because I lack of skill of developing an interface.
 
 Netsing is licensed with MIT License.
 
