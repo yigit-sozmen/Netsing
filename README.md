@@ -19,3 +19,15 @@ Firstly, Netsing captures your internet traffic with [Scapy](https://scapy.net/)
 To basically run Netsing use:
 
 ```sudo python main.py```
+
+## AI Usage and License
+
+Netsing's user interface and sound generation coded using AI because i lack of skill of developing an interface.
+
+Netsing is licensed with MIT License.
+
+## Contributing
+
+Contributions and suggestions are always welcome !
+
+**Need contributions mostly for interface.**
